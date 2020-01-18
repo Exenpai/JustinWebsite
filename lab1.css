@@ -1,0 +1,91 @@
+/*lab1.css - stylesheet examples*/
+
+body {
+	background-color: darkslategray;
+}
+
+h1 {
+	font-size: xx-large;
+	text-align: center;
+	font-family: Arial, Helvetica;
+	color: lightblue;
+}
+
+h2 {
+	font-size: x-large;
+	font-family: Arial, Helvetica;
+	font-style: italic;
+	text-decoration: underline;
+	color: lightblue;
+}
+
+h3 {
+	font-size: larger;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: lightblue;
+}
+
+h4 {
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: lightblue;
+}
+
+p {
+	font-family: Arial, Helvetica;
+	font-style: italic;
+	color: lightblue;
+}
+
+div {
+	text-align: center;
+}
+
+a {
+	background-color: beige;
+}
+
+a:hover {
+	color: red;
+}
+
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: purple;
+
+}
+
+table,
+th,
+td {
+	border: 1px solid white;
+	color: lightblue;
+	padding: 20px;
+}
+
+ul {
+
+	color: lightblue;
+}
+
+legend,
+label {
+	color: lightblue;
+}
+
+#navy {
+	font-size: larger;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.field {
+	color: lightblue;
+}
