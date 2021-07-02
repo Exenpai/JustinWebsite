@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin's Website</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a class="active" href="home.html" rel="noopener noreferrer">Home</a></li>
+            <li><a href="about.html" rel="noopener noreferrer">About</a></li>
+            <li><a href="education.html" rel="noopener noreferrer">Education</a></li>
+            <li><a href="jobs.html" rel="noopener noreferrer">Jobs</a></li>
+            <li><a href="contact.html" rel="noopener noreferrer">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="title">
+        <h1>Contact Me</h1>
+    </div>
+
+    <div id="contact">
+        <fieldset>
+            <legend>
+                <h3>Contact Details</h3>
+            </legend>
+            <form method="get" action:="mailto:justin.serrano@edu.sait.ca">
+                <p>
+                    <label for="subject">Message Subject:</label>
+                    <input type="text" name="subject" id="subject">
+                </p>
+                <p>
+                    <label for="type">Message Type:</label>
+                    <input type="radio" value="personal" id="type">Personal
+                    <input type="radio" value="work" id="type">Work
+                </p>
+                <p>
+                    <label for="message">Message Text Field:</label>
+                    <textarea placeholder="Put message here"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">&nbsp;&nbsp;
+                    <input type="reset" value="Reset">
+                </p>
+            </form>
+        </fieldset>
+    </div>
+
+</body>
